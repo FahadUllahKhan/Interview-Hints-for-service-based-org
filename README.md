@@ -7,7 +7,7 @@ Questions
 ------------- 
 
 What is CIA..? 
-
+=========================
 CIA is a model, designed to guide policies for information security within an organization. 
 
  
@@ -33,7 +33,7 @@ Non-Repudiation ensure that someone cannot deny the validity of something.
   
 
 SQl injection..? what is blind and error based..? 
-
+=========================
 sql injection is a type of injection attack which hacker can inject maleciuse sql code to manipulate backend database and gain access to potentially valueable information. 
 
  
@@ -65,7 +65,7 @@ Enforce least privilege's to the database tables.
  
 
 what we can do with Sql injection..? 
-
+=========================
  
 we can get valuable information  
 
@@ -106,7 +106,7 @@ and let run come command like id and you will get some result.
  
 
 What is XXS..? and its types..? 
-
+=========================
 XSS occurs when attacker can injects malicious JavaScript code into the website and steel browser informations to inpersonate user. 
 
  
@@ -135,8 +135,6 @@ Use a Content Security Policy,
 
 sanitize all untrusted data,  
 
- 
-
 Validate user inputs 
 
 Sanitize user inputs 
@@ -150,7 +148,7 @@ Use XSS HTML Filter
   
 
 What is IDOR..? 
-
+=========================
 IDOR is a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. 
 
  
@@ -177,13 +175,13 @@ Validate User Access,
  
 
 What is SSRF..? 
-
+=========================
 A server-side request forgery (SSRF) attack involves an attacker abusing server functionality to access or modify resources. 
 
   
 
 Process of Penetration testing..? 
-
+=========================
 steps: 
 
 Planning and reconesinsse 
@@ -198,7 +196,7 @@ covering tracks
  
 
 ICMP and Ping..? 
-
+=========================
 PING: 
 
 Ping is a troubleshooting tool used by system administrators/pentester to manually test for connectivity between network devices, ping use ICMP protocols to check whether the machine live or not. 
@@ -216,7 +214,7 @@ send echo message to server and get echo reply if server/machine is live.
  
 
 As a black box hacker, you only know the name of the target. how to enumerate further..? 
-
+=========================
 steps1: 
 
 find subdomains 
@@ -252,7 +250,7 @@ if port 80 or 443 open, the attack surfece will be incress.
  
 
 Actice and Passive recon..? 
-
+=========================
  
 Active Recon: > Active recon is when you interact directly with a computer system in order to gather specific information about the target.  
 
@@ -281,7 +279,7 @@ shodan
 
  
 What is DNS..? and what is forward lookup and reverse lookup..? 
-
+=========================
 DNS: 
 
 The Domain Name System (DNS) is the phonebook of the Internet. that resolve hostname aginst IP address. 
@@ -299,7 +297,7 @@ the process of finding hostname based on the IP address in DNS is called reverse
  
 
 What is Port scanning..? 
-
+=========================
 Port Scanning is the technique used to identify open ports and service available on a host. 
 
 port scanning is used to find informations that can be helpful to exploit vulnerabilities. 
@@ -319,7 +317,7 @@ Stealth Scanning
 
  
 What is XML Injection..? 
-
+=========================
 XXE is a type of attack against an application that parses XML input. This attack occurs when XML input containing a reference to an external entity is processed by a weakly configured XML parser. 
 
 This attack may lead to the disclosure of confidential data, denial of service, server side request forgery, port scanning from the perspective of the machine where the parser is located, 
@@ -352,7 +350,7 @@ SAST tools can help detect XXE in source code,
 
  
 What is Penetration  Testing Methodologies..? 
-
+=========================
 There are four types of methodologies.. 
 
     OSSTMM 
@@ -366,7 +364,7 @@ There are four types of methodologies..
  
 
 What is Ethical hacking methodologies/Steps..? 
-
+=========================
     Reconnaissance  
 
     Scanning 
@@ -379,7 +377,7 @@ What is Ethical hacking methodologies/Steps..?
 
  
 What is the Penetration testing approach..? 
-
+=========================
     Black Box  
 
     White box 
@@ -388,7 +386,7 @@ What is the Penetration testing approach..?
 
  
 Types of penetration testing..? 
-
+=========================
     Web application penetration testing 
 
     Network services / Infrastructure Penetration testing 
@@ -403,7 +401,7 @@ Types of penetration testing..?
 
  
 Mobile application Penetration Testing Methodologies/Stages..? 
-
+=========================
     Discovery 
 
         Open source Intelligence  
@@ -441,7 +439,7 @@ Mobile application Penetration Testing Methodologies/Stages..?
 
  
 What is Application Security..? 
-
+=========================
 Application Security is aim to protect software application code and data against cyber threats. You can and should apply application security during all phases of development, including design, development and deployment. 
 
 
@@ -455,7 +453,7 @@ What types of applications does a modern organization needs to secure..?
 
  
 What is application security testing..? 
-
+=========================
 Application Security Testing (AST) is a processes of making application more resilient to security threats by identifying and remediating security vulnerabilities. 
 
     Key Consideration before testing application. 
@@ -485,7 +483,7 @@ Application Security Testing (AST) is a processes of making application more res
 
      
 Types of Application Security Testing..? 
-
+=========================
     Black Box 
 
     White Box  
@@ -494,7 +492,7 @@ Types of Application Security Testing..?
 
  
 Application Security Tools and Solution..? 
-
+=========================
     Web Application Firewall (WAF) 
 
     Runtime Application Self-Protection (RASP) 
